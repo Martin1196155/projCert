@@ -4,7 +4,7 @@ pipeline{
             stage('checkout'){
                 agent any
                 steps{
-                    git 'https://github.com/Martin1196155/Edureka_Final_Project.git'
+                    git 'https://github.com/Martin1196155/projCert.git'
                 }
             }
             
