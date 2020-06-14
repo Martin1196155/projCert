@@ -42,7 +42,7 @@ pipeline{
             stage('Selenium_Test'){
                 agent {label'Win_Test_server'}
                 steps{
-                    bat 'C:\eclipse\Workdir\Test'
+                    bat 'C:\\eclipse\\Workdir\\Test'
                     bat 'java -jar Test.jar'
                 }
             }            
