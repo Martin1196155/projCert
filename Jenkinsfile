@@ -43,7 +43,7 @@ pipeline{
                 agent {label'Win_Test_server'}
                 steps{
                     bat 'cd C:\\eclipse\\Workdir\\Test'
-                    bat 'java -jar Test.jar'
+                    bat "java -jar C:\\eclipse\\Workdir\\Test\\Test.jar"
                 }
             }            
             
